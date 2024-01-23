@@ -1,0 +1,32 @@
+.dombui:hover {
+    -webkit-filter: blur(2px);
+    filter: blur(1px);
+}
+.button {
+    outline: none;
+  }
+
+  /* NewsTicker.css */
+.news-ticker-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.85); 
+    
+    font-size: 14px;
+    color: white; /* Adjust text color as needed */
+    /* padding: 3px; */
+    padding-top: 3px;
+    z-index: 0; /* Ensure it appears above other elements */
+  }
+  
+  marquee {
+    white-space: nowrap;
+    overflow: hidden;
+    
+  }
+
+  .span-news {
+    margin-right: 20px;
+  }
